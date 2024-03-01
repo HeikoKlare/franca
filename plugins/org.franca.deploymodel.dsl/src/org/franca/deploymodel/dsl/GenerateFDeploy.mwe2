@@ -20,19 +20,11 @@ Workflow {
 			project = StandardProjectConfig {
 				baseName = projectName
 				rootPath = rootPath
-				runtimeTest = {
-					enabled = true
-					root = "../../tests/${projectName}.tests.base"
-				}
 				genericIde = {
-					enabled = true
+					enabled = false
 				}
 				eclipsePlugin = {
-					enabled = true
-				}
-				eclipsePluginTest = {
-					enabled = true
-					root = "../../tests/${projectName}.tests.base"
+					enabled = false
 				}
 				createEclipseMetaData = true
 			}
