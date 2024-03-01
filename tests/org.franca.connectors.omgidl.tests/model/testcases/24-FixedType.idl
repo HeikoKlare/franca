@@ -1,4 +1,0 @@
-
-module testcase24 {
-	typedef fixed<16,4> bignum_t;
-};

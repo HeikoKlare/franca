@@ -1,4 +1,0 @@
-module typecode {
-	interface ExampleInterface_TypeCode {
-	};
-};

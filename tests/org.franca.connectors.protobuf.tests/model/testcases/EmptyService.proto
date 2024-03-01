@@ -1,6 +1,0 @@
-syntax = "proto2";
-
-package org.franca.connectors.protobuf.tests;
-
-service ExampleService1 {
-}

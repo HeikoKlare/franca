@@ -1,7 +1,0 @@
-syntax = "proto2";
-
-package org.franca.connectors.protobuf.tests;
-
-
-enum Request1 {}
-enum Response1 {}
