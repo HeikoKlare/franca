@@ -8,12 +8,12 @@
 package org.franca.core.utils
 
 import java.math.BigInteger
-import org.eclipse.xtend.typesystem.emf.EcoreUtil2
 import org.franca.core.franca.FBasicTypeId
 import org.franca.core.franca.FIntegerInterval
 import org.franca.core.franca.FModel
 import org.franca.core.franca.FTypeRef
 import org.franca.core.franca.FrancaFactory
+import org.eclipse.xtext.EcoreUtil2
 
 /**
  * Converter for all integer type references of a model.<p/>
@@ -43,7 +43,7 @@ class IntegerTypeConverter {
 	 * @param haveUnsigned flag if unsigned types should be used as result
 	 */
 	def static void removeRangedIntegers (FModel model, boolean haveUnsigned) {
-		val all = EcoreUtil2::allContents(model)
+		val all = EcoreUtil2::eAllContents(model)
 		val typerefs = all.filter(typeof(FTypeRef))
 		for(tref : typerefs) {
 			if (tref.interval!==null) {
@@ -70,7 +70,7 @@ class IntegerTypeConverter {
 	 * @param model the model which should be converted
 	 */
 	def static void removePredefinedIntegers (FModel model) {
-		val all = EcoreUtil2::allContents(model)
+		val all = EcoreUtil2::eAllContents(model)
 		val typerefs = all.filter(typeof(FTypeRef))
 		for(tref : typerefs) {
 			if (tref.predefined!==null) {
