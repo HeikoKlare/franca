@@ -1,13 +1,14 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Franca EMF Edit code
+Bundle-Name: %pluginName
 Bundle-SymbolicName: org.franca.core.edit;singleton:=true
+Automatic-Module-Name: org.franca.core.edit
 Bundle-Version: 0.13.2.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: org.franca.core.franca.provider.FrancaEditPlugin$Implementation
-Bundle-Vendor: itemis AG
+Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.franca.core.franca.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.franca.core;visibility:=reexport,
