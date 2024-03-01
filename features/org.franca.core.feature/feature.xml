@@ -29,35 +29,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.franca.core.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.franca.core.dsl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.franca.deploymodel.dsl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.franca.generators"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.franca.tools.contracts.tracevalidator"
          download-size="0"
          install-size="0"
          version="0.0.0"
