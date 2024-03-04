@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>org.franca</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.franca</groupId>
+    	<artifactId>org.franca.parent</artifactId>
+		<version>0.13.2-SNAPSHOT</version>
+		<relativePath>releng/org.franca.parent</relativePath>
+  	</parent>
+	
+	<modules>
+		<!-- target platform -->
+		<module>releng/org.franca.targetplatform</module>
+		<!-- actual code modules -->
+		<module>plugins/org.franca.core</module>
+		<module>plugins/org.franca.core.dsl</module>
+		<module>features/org.franca.core.feature</module>
+		<module>features/org.franca.core.feature.sdk</module>	
+		<module>releng/org.franca.updatesite</module>
+	</modules>
+
+</project>

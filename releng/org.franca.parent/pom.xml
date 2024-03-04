@@ -30,17 +30,6 @@
 		<skip.deployment>true</skip.deployment>
 	</properties>
 
-    <modules>
-    		<!-- target platform -->
-            <module>../../releng/org.franca.targetplatform</module>
-    		<!-- actual code modules -->
-            <module>../../plugins/org.franca.core</module>
-            <module>../../plugins/org.franca.core.dsl</module>
-            <module>../../features/org.franca.core.feature</module>
-            <module>../../features/org.franca.core.feature.sdk</module>	
-			<module>../org.franca.updatesite</module>
-    </modules>
-
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
