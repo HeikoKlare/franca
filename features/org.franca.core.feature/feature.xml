@@ -21,6 +21,10 @@
       <update label="%updateSiteName" url="http://franca.github.io/franca/update_site/releases"/>
    </url>
 
+   <requires>
+      <import plugin="org.eclipse.xtext.xbase"/>
+   </requires>
+
    <plugin
          id="org.franca.core"
          download-size="0"
